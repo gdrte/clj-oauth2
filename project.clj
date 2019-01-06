@@ -1,9 +1,9 @@
 (def dev-dependencies
   '[[ring "0.3.11"]])
 
-(defproject clj-oauth2 "0.4.0-SNAPSHOT"
+(defproject clj-oauth2 "0.4.1-SNAPSHOT"
   :description "clj-http and ring middlewares for OAuth 2.0"
-  :dependencies [[org.clojure/clojure "1.4.0"]
+  :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.clojure/data.json "0.1.1"]
                  [clj-http "0.3.2"]
                  [uri "1.1.0"]
